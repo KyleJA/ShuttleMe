@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/route_frag_heading"
+                android:id="@+id/route_frag_heading"
+                android:textColor="@color/routeHeadings"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/route2_info"
+                android:text="@string/route_2_info"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="@string/route_frag_heading1"
+                android:id="@+id/textView1"
+                android:textSize="15sp"
+                android:textColor="@color/routeHeadings"
+                android:layout_marginTop="8dp" />
+            <View
+                style="@style/divider"
+                android:id="@+id/line1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:id="@+id/pick_drop_info"
+                android:textSize="15sp"
+                android:text="@string/pickup_dropoff_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="@string/route_frag_heading2"
+                android:id="@+id/textView2"
+                android:textSize="15sp"
+                android:textColor="@color/routeHeadings"
+                android:layout_marginTop="8dp" />
+
+            <View
+                style="@style/divider"
+                android:id="@+id/line2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RoutePath"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textSize="15sp"
+                android:text="@string/route_path2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="@string/route_frag_heading3"
+                android:id="@+id/textView3"
+                android:textSize="15sp"
+                android:textColor="@color/routeHeadings"
+                android:layout_marginTop="8dp" />
+
+            <View
+                style="@style/divider"
+                android:id="@+id/line3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Time"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textSize="15sp"
+                android:text="@string/time2" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:text="View Route"
+                android:background="@drawable/my_button"
+                android:id="@+id/routeButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

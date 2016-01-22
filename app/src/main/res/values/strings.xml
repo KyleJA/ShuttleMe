@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">ShuttleMe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_AboutUs">About Us</string>
+    <string name="action_Help">Help</string>
+    <string name="action_logout">Log Out</string>
+    <string name="HelpText">"Login - this menu is utilised by shuttle drivers, in order to broadcast the shuttle's location information.
+        \nRoute Selection - Allows any user to monitor the current location of shuttle/s on the specified route.
+        \nSecurity Info - contains information referenced from the Security booklet \'Ensuring your safety on and off campus\'.
+        \nIn need of further assistance using this app? Or maybe you'll like to make the developers aware of bugs/problems....then send an email to the team at: kylealex92@gmail.com."
+    </string>
+    <string name="login">Log In</string>
+
+    <!-- Strings related to login page-->
+    <string name="error_blank_username">username</string>
+    <string name="error_intro">Please, enter a\u0020</string>
+    <string name="error_join">\u0020and\u0020</string>
+    <string name="error_blank_password">password</string>
+    <string name="error_end">!</string>
+    <string name="progress_login">Logging in...</string>
+
+    <!-- route information-->
+    <string name="route_frag_heading">Route Information:</string>
+    <string name="route_frag_heading1">Pick-up and Drop-off points</string>
+    <string name="route_frag_heading2">Route</string>
+    <string name="route_frag_heading3">Time</string>
+
+    <string name="route_1_info">This shuttle service operates only on weekends
+        from 7:00 am to 10:00 pm at 10-15 minutes intervals.
+    </string>
+    <string name="route_2_info">This route services student attending the old and new Department for
+        Creative and Festival Arts, School of Education, and (after 7:00 pm) residents of the St.
+        Augustine/Santa Margarita area.
+    </string>
+    <string name="route_3_info">This route services student residing around the main campus.</string>
+    <string name="route_4_info">This route serves the faculty of Medical Sciences,
+        Joyce Gibson-Inniss Hall of Residence, University Field Station, and
+        (after 7:00pm) San Juan residents
+    </string>
+    <string name="route_5_info">This route serves students residing at Sir Author Lewis Hall
+        of Residence and St. John’s Road
+    </string>
+
+    <string name="route_path1"><![CDATA[Student and Visitor (TGR) Car Park >>
+        JFK Underpass via University Drive >> Student and Visitor (TGR North) Car Park]]>
+    </string>
+     <string name="route_path2"><![CDATA[JFK Underpass >> Heart Ease Gate >>
+        Wooding Drive>> School of Education >> Old Creative and Festival Arts >>
+        New Creative and Festival Arts >> Optometry]]>
+    </string>
+    <string name="route_path3">Non specified</string>
+    <string name="route_path4">Non specified</string>
+    <string name="route_path5">JFK Underpass (AM) /SAC East (PM) >>
+        University Drive >> SALHOR
+    </string>
+
+    <string name="time1">Weekdays 7:00 am to 10:00 pm. Every 10-15 minutes</string>
+    <string name="time2">Weekdays 7:00 am to 10:00 pm/ Every hour (60 minutes)
+        (approximately)
+    </string>
+    <string name="time3">7:00 pm – 5:00am</string>
+    <string name="time4">Weekdays 7:00 am to 7:00 pm then 7:00pm-5:00am/ Approximately
+        every hour (60 minutes)
+    </string>
+    <string name="time5">6:30am – 5:00am</string>
+
+    <string name="pickup_dropoff_1">"- Chemistry building \n- Geomatics Engineering and Land Management building"</string>
+    <string name="pickup_dropoff_2">"- JFK Underpass \n- Heart Ease Gate \n- Old Creative and Festival Arts (by request only) \n- School of Education (by request only) \n- Sir George Alleyne Building (HEU) \n- New Creative and Festival Arts \n- Optometry"</string>
+    <string name="pickup_dropoff_3">"- Sport and Physical Education Centre (Spec) \n  (by request only) \n- Teaching and Learning Complex (by request only) \n- Film Unit/Behavioral Sciences Carmody Road \n  (by request only) \n- University Villas (by request only) \n- S.A.C \n- St. Augustine Villas (by request only) \n- Campus Villas (by request only)</string>
+    <string name="pickup_dropoff_4">"<b><i>(Day - 7:00am to 7:00pm)</i></b> \n- JFK Underpass \n- Curepe Junction \n- Faculty of Medical Sciences \n- Joyce Gibson-Inniss Hall of Residence \n- University Field Station (by request only) \n<b><i>(Night - 7:00pm to 5:00am)</i></b> \n- SAC East \n- Curepe Junction \n- Faculty of Medical Sciences \n- Joyce Gibson-Inniss Hall of Residence \n- San Juan Bus Terminus"</string>
+    <string name="pickup_dropoff_5">"<b><i>(Day- 7:00am to 7:00pm)</i></b> \n- JFK Underpass (AM)/SAC East (PM) \n- Sir Author Lewis Hall of Residence"</string>
+    <string name="login_welcome">Admin Login</string>
+    <string name="welcome_title">ShuttleMe</string>
+
+    <string name="settings_hint">For best results when using this app. Please ensure that both GPS and Mobile Data are enabled</string>
+
+    <string name="aboutUs_text">"This app is the sole intellectual property of: \n<b>- Kyle Alexander\n- Jozette Hector \n- Kirron Lewis \n- Gyasi Felix</b>.
+        \nAny misuse or copyright of this app\'s content or coding thereof, may be prosecutable by the full extent of the law. (lol who knows O_O)
+        \nHave any enquiries about ShuttleMe, have any bugs to report or would you like to join this promising app creation team? Then please email us at: <b>kylealex92@gmail.com</b>"
+    </string>
+
+    <string name="security_info">The St. Agustine Campus has taken significant steps toward ensuring the safety and security of students,
+        employees and visitors. All students, staff and visitors are strongly encouraged to make use of the following:
+    </string>
+    <string name="security_infoContd">Stay alert on and particularly off campus, avoid secluded short-cuts, and walk with a friend – look out for each other!
+        If you need assistance, or feel that someone is behaving in a suspicious manner, go to the nearest well-lit area and report
+        the incident to Campus Security.
+    </string>
+    <string name="security_points">"• Campus Security Escort Service available on request from 6:00pm - 6:00am (Call Exts. 82120/83510/84319)
+        \n• Designated secure study areas
+        \n• Students’ Shuttle Service (Students only)
+        \n• Designated well-lit, 24 hour patrolled walkways
+        \n• Emergency Phone Service
+        \n• Security Hotline: 662-4123"
+    </string>
+    <string name="security_heading1">WHAT TO EXPECT WHEN YOU MAKE A REPORT TO THE UWI ESTATE POLICE?</string>
+    <string name="security_subheading1">Attention and Assistance</string>
+    <string name="subheading1">You will be giving attention, care and assistance by the UWI Police and the University.</string>
+    <string name="security_subheading2">Information and Guideline</string>
+    <string name="subheading2">You will be advised in advance of all security and law enforcement protocols to be taken. The process will be explained to you as it occurs, to ensure your comfort and knowledge of the system.</string>
+    <string name="security_subheading3">Action</string>
+    <string name="subheading3">An investigator and professional will be assigned to your case to ensure that all procedures are carried out expeditiously and handled in the most supportive, sensitive and empathic manner possible.</string>
+    <string name="security_subheading4">Follow-up</string>
+    <string name="subheading4">You will receive appropriate information in respect of the progress of investigations.</string>
+    <string name="security_subheading5">Our responsibility</string>
+    <string name="subheading5">A department fully committed to communicating policing, we believe that preventing crime is the joint responsibility of UWI Police and members of the Campus Community. Join us in making the UWI St. Augustine Campus a safe place to work, relax and study.</string>
+    <string name="heading">Ensuring Your Safety On And Off Campus</string>
+    <string name="tips_heading">"<u>Safety and Security Tips</u>"</string>
+
+    <string name="admin_directive">"Please touch the \"Track My Location\" button to begin sending this shuttle's location."</string>
+    <string name="admin_hint">Hint: Don\'t forget to logout when finished along the assigned route.</string>
+</resources>

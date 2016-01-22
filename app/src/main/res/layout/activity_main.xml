@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation ="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/AppTheme"
+    android:background="@drawable/shuttle_back" tools:context=".MainActivity">
+    <!--android:background="@drawable/shuttle_back" -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/appBanner"
+        android:textSize="45sp"
+        android:singleLine="false"
+        android:password="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/appBanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:background="@drawable/my_button"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Route Selection"
+        android:id="@+id/routeSelectionButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Security Info"
+        android:id="@+id/securityInfoButton"
+        android:layout_below="@+id/routeSelectionButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/helpButton"
+        android:layout_below="@+id/securityInfoButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:layout_marginBottom="25dp"/>
+
+</RelativeLayout>
+
